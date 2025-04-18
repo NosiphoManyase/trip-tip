@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 
+// extra security to verify users --- Improvement ticket
+
 const page = () => {
 
   const [userData, setUserData] = useState({
